@@ -1,9 +1,1 @@
-[
-    {
-        "id":1,
-        "name":"header",
-        "params":{"text":"Hello world"},
-        "hbs":"<h1> {{text}} </h1>",
-        "styles":"h1{color: red}"
-    }
-]
+[{"id":1,"name":"header","params":{"text":"Hello world"},"hbs":"<h1> {{text}} </h1>","styles":"h1{color: red}"},{"id":2,"name":"footer","params":"{\n  \"companyName\": \"ITSTEP\"\n}","hbs":"<div id=\"footer\">\n  <p> {{companyName}} <p>\n</div>","styles":"#footer{\n  background-color: black;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 20px;\n  color: white;\n}"}]

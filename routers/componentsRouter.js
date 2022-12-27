@@ -11,7 +11,6 @@ router.post("/", (req, res) => {
         id: componentsArray.at(-1)?.id + 1 || 1,
         name,
         params,
-        hbs,
         styles,
     };
 
